@@ -36,7 +36,7 @@ async function main() {
     //
     app.get("/video", async (req, res) => {
 
-        console.log('hello world!');
+        console.log('hello world!!');
         const videoId = req.query.id;
 
         // Retreives the data from the metadata microservice.
