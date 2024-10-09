@@ -36,6 +36,7 @@ async function main() {
     //
     app.get("/video", async (req, res) => {
 
+        console.log('helloo');
         const videoId = req.query.id;
 
         // Retreives the data from the metadata microservice.
